@@ -1,0 +1,30 @@
+.carousel-img {
+  height: 70vh;       /* 70% da altura da tela */
+  object-fit: cover;   /* corta o excesso sem distorcer a imagem */
+}
+
+.carousel-container {
+  margin-bottom: 2rem; /* Ajuste como preferir: 1rem, 3rem etc */
+}
+
+
+/* PADRONIZANDO AS IMAGENS DOS CARDS */
+.card-img-wrapper {
+  height: 200px;
+  width: 100%;
+  overflow: hidden; /* impede a imagem de escapar */
+  border-top-left-radius: 0.5rem;  /* opcional - acompanha bordas do Card */
+  border-top-right-radius: 0.5rem; 
+}
+
+
+.card-img-fixed {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.card-img-wrapper:hover .card-img-fixed {
+  transform: scale(1.08); /* zoom mais elegante */
+}
