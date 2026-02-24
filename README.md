@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 # PWeb1
-Atividades da disciplina Prrogramação Web I
+Atividades da disciplina Programação Web I
 =======
 # React + Vite
 
